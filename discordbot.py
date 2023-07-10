@@ -4,7 +4,7 @@ import json
 
 intents = discord.Intents.default()
 intents.message_content = True
-DCTOKEN = "MTEyNzM1NTkyMTkxNjUxNDQ0NQ.G6OMjX.OUiGHyModOso7UPhTSNlI03lXMnDGhEuXKEhSU"
+DCTOKEN = "yourdiscordtoken"
 
 url =  "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
 
@@ -15,7 +15,7 @@ parameters = {
 
 headers = {
     'Accepts' : 'application/json',
-    'X-CMC_PRO_API_KEY' : 'a9a476de-82aa-4861-9540-2063bb7037cf'
+    'X-CMC_PRO_API_KEY' : 'yourcmckey'
 }
 
 session = Session()
